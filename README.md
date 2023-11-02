@@ -6,4 +6,6 @@ Various ways to launch Cypress
 4. To launch all the tests under a specific spec file - **npx cypress run --spec <specFileName.cy.js>**
 5. To launch all the tests under a specific spec file (headed mode) - **npx cypress run --spec <specFileName.cy.js> --headed**
 6. To launch all the tests under specific browser - **npx cypress --browser chrome**
-   
+
+
+   SpecFile(spec.cy.js) ---- describe blocks (**Suite**) ----- it blocks (**Test**)
